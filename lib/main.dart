@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp( MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -14,6 +14,8 @@ class MyApp extends StatelessWidget {
         home : Scaffold(
           body: Row(
             children : [
+              Icon(Icons.star),
+              Icon(Icons.star),
               Icon(Icons.star),
               Icon(Icons.star),
               Icon(Icons.star),
