@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
               Icon(Icons.star),
               Icon(Icons.star),
               Icon(Icons.star),
+              Icon(Icons.star),
             ],
 
           ),
