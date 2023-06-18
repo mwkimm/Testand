@@ -1,7 +1,10 @@
+// 상단바 별표 글자 표시
+// 상단바 별표 2개 아이콘 표시
+
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp( MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -9,27 +12,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return MaterialApp(
-        home : Scaffold(
-          body: Row(
-            children : [
-              Icon(Icons.star),
-              Icon(Icons.star),
-              Icon(Icons.star),
-              Icon(Icons.star),
-              Icon(Icons.star),
-              Icon(Icons.star),
-              Icon(Icons.star),
-
-              Icon(Icons.star),
-              Icon(Icons.star),
-              Icon(Icons.star),
-            ],
-
-          ),
-
-      )
+        home: Scaffold(
+          appBar: AppBar( actions: [Icon(Icons.star), Icon(Icons.star)], title: Text('dddd') ),
+          body: SizedBox(),
+       )
     );
   }
 }
